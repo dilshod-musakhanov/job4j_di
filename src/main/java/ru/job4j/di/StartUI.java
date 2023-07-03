@@ -19,4 +19,8 @@ public class StartUI {
             System.out.println(value);
         }
     }
+
+    public String askStr(String question) {
+        return input.askStr(question);
+    }
 }

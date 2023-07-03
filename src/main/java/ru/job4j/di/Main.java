@@ -9,9 +9,8 @@ public class Main {
 
 
         StartUI ui = context.get(StartUI.class);
-        ConsoleInput input = context.get(ConsoleInput.class);
 
-        String answer = input.askStr("Your name?");
+        String answer = ui.askStr("Your name?");
         ui.add(answer);
         ui.print();
     }
